@@ -1,0 +1,64 @@
+@charset "utf-8";
+/* CSS Document */
+
+.footer {
+	background-color: #dad9da;
+	height: 125px;
+	font-family: Calibri;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFFFFF', endColorstr='#dad9da'); /* for IE */
+	background: -webkit-gradient(linear, left top, left bottom, from(#FFFFFF), to(#dad9da)); /* for webkit browsers */
+	background: -moz-linear-gradient(top,  #FFFFFF,  #dad9da); /* for firefox 3.6+ */ 
+}
+
+.footer_menu {
+	border-right: 1px solid #dedada;
+	height: 125px;
+	float: left;
+	width: 313px;
+}
+
+.footer_contactus {
+	border-right: 1px solid #dedada;
+	height: 125px;
+	float: left;
+	width: 300px;
+}
+
+.footer_followus {
+	/*border-right: 1px solid #000;*/
+	height: 125px;
+	float: left;
+}
+
+.menu_content {
+	margin-left: 45px;
+	/*margin-right: 112px;*/
+	margin-top: 51px;
+}
+
+.menu_content a {
+	text-decoration: none;
+	color: #000;
+}
+.contactus_content {
+	margin-left: 45px;
+	margin-right: 52px;
+	margin-top: 10px;
+}
+
+.followus_content {
+	margin-left: 45px;
+	margin-right: 112px;
+	margin-top: 10px;
+}
+
+img {
+	border: none;
+}
+
+.banner_text {
+	float: none;
+	margin-right: 549px;
+	margin-top: 12px;
+	font-family: Calibri;
+}
